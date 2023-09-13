@@ -8,10 +8,6 @@ class ActionsHeaderPage {
     selectCountryIcon: () =>
       this.elements.actionsHeader().find(".header-currency-select"),
   };
-
-  visit() {
-    cy.visit("/");
-  }
 }
 
 export default new ActionsHeaderPage();
