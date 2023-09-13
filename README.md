@@ -1,0 +1,1 @@
+All page objects are located in `cypress/e2e/pages` directory.
